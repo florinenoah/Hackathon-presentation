@@ -7,7 +7,7 @@
   <title>VORA — La mobilité, autrement</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Dancing+Script:wght@600;700&family=DM+Sans:wght@400;500;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -16,7 +16,7 @@
     <span></span>
 </div>
   <header class="topbar">
-    <a class="wordmark" href="#top" aria-label="VORA, retour en haut">VORA<span>°</span></a>
+    <!-- <a class="wordmark" href="#top" aria-label="VORA, retour en haut">VORA<span>°</span></a> -->
     <nav aria-label="Navigation principale">
       <a href="#problem">Le constat</a>
       <a href="#solution">La solution</a>
@@ -24,49 +24,137 @@
     </nav>
     <span class="topbar-status"><i></i> Yaoundé / 2026</span>
   </header>
-
+  
   <main id="top">
     <section class="hero scene" id="hero">
             <div class="hero-backdrop" aria-hidden="true"></div>
             <div class="hero-overlay"></div>
       <div class="hero-copy reveal">
-        <p class="eyebrow light">HACKATHON <span></span> CAMEROUN</p>
-        <h1>Réinventer<br /><em>la mobilité.</em></h1>
-        <p class="hero-note light-note">Une ville qui avance.<br />Une solution qui suit.</p>
+        <p class="eyebrow light">29 Aout 2026<span></span>YAOUNDÉ-BASTOS</p>
+        <h1>HACKATHON<br /><em>NuxCine 2026</em></h1>
         <a class="scroll-cue light" href="#problem"><span class="scroll-line"></span>Faire défiler</a>
     </div>
-      <div class="hero-location"><span>03° 52′ N</span><span>11° 31′ E</span><b>YAOUNDÉ</b></div>
     </section>
 
     <section class="problem chapter" id="problem">
-      <div class="chapter-intro reveal">
-        <p class="eyebrow">01 / LE CONSTAT</p>
-        <h2>Chaque trajet<br /><span>compte.</span></h2>
-    </div>
-      <div class="problem-grid">
-        <figure class="image-tile tile-city reveal">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9utf5Fmh_wvvs58B6affGZBK6MyCmkk_An7lc0cyR0w&s=10" alt="Rue et circulation à Yaoundé, Cameroun" loading="lazy" />
-            <figcaption>La ville se densifie.</figcaption>
-        </figure>
-        <div class="keywords reveal">
-            <span>Embouteillages</span>
-            <span>Temps perdu</span>
-            <span>Insécurité</span>
-            <span>Tarif incertain</span>
-            <span>Chauffeur introuvable</span>
+        <div class="chapter-intro reveal">
+            <p class="eyebrow">01 / LE CONSTAT</p>
+            <h2>Chaque trajet<br /><span>compte.</span></h2>
         </div>
-        <figure class="image-tile tile-people reveal">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRtwY8nGW2EgiqDh1MDXAAm0R9yOJ9ew_mNEosh4SsUws96ICgGgzk74&s=10" alt="Transport urbain et vie de rue au Cameroun" loading="lazy" />
-            <figcaption>Les habitudes changent.</figcaption>
-        </figure>
-    </div>
+
+        <div class="constats-grid">
+            <article class="constat-card capability-card reveal">
+                <div class="card-glow"></div>
+                <div class="constat-card-header">
+                    <span class="constat-num">01</span>
+                    <span class="constat-badge-pill">♿ Accessibilité</span>
+                </div>
+                <div class="constat-body">
+                    <h3>Manque d'accompagnement PMR</h3>
+                    <p>Véhicules inadaptés et quasi-absence de prise en charge pour les personnes à mobilité réduite ou âgées.</p>
+                </div>
+                <div class="constat-footer">
+                    <span>Exclusion au quotidien</span>
+                </div>
+            </article>
+
+            <article class="constat-card capability-card reveal">
+                <div class="card-glow"></div>
+                <div class="constat-card-header">
+                    <span class="constat-num">02</span>
+                    <span class="constat-badge-pill">🛡️ Sécurité</span>
+                </div>
+                <div class="constat-body">
+                    <h3>Insécurité &amp; vulnérabilité</h3>
+                    <p>Courses non tracées en temps réel, chauffeurs non vérifiés et absence de dispositif d'alerte ou SOS.</p>
+                </div>
+                <div class="constat-footer">
+                    <span>Manque de confiance</span>
+                </div>
+            </article>
+
+            <article class="constat-card capability-card reveal">
+                <div class="card-glow"></div>
+                <div class="constat-card-header">
+                    <span class="constat-num">03</span>
+                    <span class="constat-badge-pill">🏷️ Tarification</span>
+                </div>
+                <div class="constat-body">
+                    <h3>Tarifs incertains &amp; opaques</h3>
+                    <p>Prix arbitraires, négociations tendues et absence de grille tarifaire claire avant le départ.</p>
+                </div>
+                <div class="constat-footer">
+                    <span>Surcoûts imprévisibles</span>
+                </div>
+            </article>
+
+            <article class="constat-card capability-card reveal">
+                <div class="card-glow"></div>
+                <div class="constat-card-header">
+                    <span class="constat-num">04</span>
+                    <span class="constat-badge-pill">⚡ Fiabilité</span>
+                </div>
+                <div class="constat-body">
+                    <h3>Manque de fiabilité du service</h3>
+                    <p>Temps d'attente imprévisibles, annulations intempestives et dispatch aléatoire des chauffeurs.</p>
+                </div>
+                <div class="constat-footer">
+                    <span>Retards &amp; frustrations</span>
+                </div>
+            </article>
+
+            <article class="constat-card capability-card reveal">
+                <div class="card-glow"></div>
+                <div class="constat-card-header">
+                    <span class="constat-num">05</span>
+                    <span class="constat-badge-pill">📍 Géolocalisation</span>
+                </div>
+                <div class="constat-body">
+                    <h3>Problèmes de localisation urbaine</h3>
+                    <p>Repérage difficile dans les quartiers sans adressage précis et perte de temps lors de la prise en charge.</p>
+                </div>
+                <div class="constat-footer">
+                    <span>Itinéraires inefficaces</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="problematique" id="problematique">
+        <div class="problematique-inner">
+            <p class="eyebrow">02 / LA PROBLÉMATIQUE</p>
+            <p class="handwritten write-reveal">Comment créer une plateforme de mobilité intelligente adaptée aux réalités camerounaises capable d'améliorer l'expérience utilisateur des passagers et les conditions de travail des chauffeurs.</p>
+        </div>
+    </section>
+
+    <section class="objectifs chapter" id="objectifs">
+        <div class="chapter-intro reveal">
+            <p class="eyebrow">03 / LES OBJECTIFS</p>
+            <h2>L'impact<br /><span>recherché.</span></h2>
+        </div>
+        <div class="objectifs-list">
+            <div class="objectif-row"><b>01</b><span>Stimuler l'innovation</span></div>
+            <div class="objectif-row"><b>02</b><span>Collaborer en équipe</span></div>
+            <div class="objectif-row"><b>03</b><span>Innover face à un défi réel</span></div>
+            <div class="objectif-row"><b>04</b><span>Concevoir un prototype fonctionnel</span></div>
+            <div class="objectif-row"><b>05</b><span>Identifier et valoriser les meilleurs talents</span></div>
+        </div>
+        <div class="defi-card reveal">
+            <small>DÉFI À RELEVER</small>
+            <p class="handwriting">
+                Concevoir une application VTC qui rend chaque course fiable, transparente et accessible à tous.
+            </p>
+        </div>
     </section>
 
     <section class="solution scene" id="solution">
         <div class="solution-bg" aria-hidden="true"></div>
         <div class="solution-head reveal">
-            <p class="eyebrow light">02 / LA SOLUTION</p>
-            <h2>Tout commence<br /><em>par un geste.</em></h2>
+            <p class="eyebrow light">04 / LA SOLUTION</p>
+            <h2><span class="solution-brand">VORA</span><br /><em>pense plus loin.</em></h2>
+            <p class="solution-kicker">VORA est une plateforme de mobilité intelligente<br />qui connecte passagers et chauffeurs.</p>
+            <p class="solution-subkicker">Mobilité urbaine · solution immobilière · VTC</p>
+            <div class="gesture-signal" aria-hidden="true"><span></span><i></i><b>01</b></div>
         </div>
         <div class="phone-stage">
             <div class="phone-glow"></div>
@@ -77,16 +165,21 @@
                     <span>● ◒ ▪</span>
                 </div>
                 <div class="app-head">
-                    <span>Bonjour, Alex</span>
+                    <span>Bonjour, Alexandra. Où allons-nous?</span>
                     <b>⌾</b>
                 </div>
                 <div class="map">
+                    <div class="map-search"><span>⌕</span>Rechercher un lieu</div>
                     <span class="map-road road-one"></span>
                     <span class="map-road road-two"></span>
                     <span class="map-road road-three"></span>
                     <span class="map-route"></span>
                     <span class="map-pin">●</span>
                     <span class="map-car">▰</span>
+                    <span class="map-driver">✓</span>
+                    <span class="map-traffic"><i></i>Trafic fluide</span>
+                    <span class="map-place place-market">Marché Mokolo</span>
+                    <span class="map-place place-hospital">Hôpital Central</span>
                     <span class="map-label label-tsinga">Tsinga</span>
                     <span class="map-label label-bastos">Bastos</span>
                     <span class="map-label label-centre">Centre-ville</span>
@@ -107,21 +200,30 @@
                 </div>
             </div>
         </div>
+        <div class="solution-floaters" aria-hidden="true">
+            <span class="floater-property">⌂ <b>Immobilière</b></span>
+            <span class="floater-ride">● <b>VTC disponible</b></span>
+            <span class="floater-price">FCFA <b>Prix transparent</b></span>
+            <span class="floater-alert">◌ <b>Chauffeur trouvé</b><small>à 3 min</small></span>
+            <span class="floater-route">⌁ <b>Trajet sécurisé</b></span>
+            <span class="floater-access">♿ <b>PMR &amp; accompagnement</b></span>
+        </div>
         <div class="solution-points">
             <span>01 <b>Réserver</b></span><span>02 <b>Suivre</b></span>
             <span>03 <b>Arriver</b></span>
         </div>
     </section>
-
     <section class="innovation chapter" id="innovations">
         <div class="chapter-intro reveal">
-            <p class="eyebrow">03 / L'EXPÉRIENCE</p>
-            <h2>Invisible.<br /><span>Intuitive.</span></h2>
+            <p class="eyebrow">05 / L'EXPÉRIENCE</p>
+            <h2>EXPÉRIENCE<br /><span>Intuitive.</span></h2>
         </div>
         <div class="innovation-demo reveal">
             <div class="demo-video-wrap">
-                <img class="demo-map-image" src="vora-map-poster.png" alt="Carte de Yaoundé avec itinéraires VORA" loading="lazy" />
-                <div class="demo-video-overlay"><span>VORA / ITINÉRAIRE</span><b>LIVE PROTOTYPE</b></div>
+                <div class="demo-video-chrome" aria-hidden="true"><i></i><span>VORA · PRODUCT WALKTHROUGH</span><b>00:06</b></div>
+                <video class="demo-video" width="1100" height="660" controls muted controls loop preload="metadata" poster="images/reservation2.png">
+                    <source src="Video/video 2.mp4">Votre navigateur ne prend pas en charge la lecture de vidéos.</video>
+                <div class="demo-video-overlay"><span>VORA / COMMANDE</span><b>LIVE PROTOTYPE</b></div>
                 <div class="demo-video-caption"><span>Une expérience pensée pour bouger.</span><i></i></div>
             </div>
             <div class="demo-features">
@@ -160,9 +262,41 @@
         </div>
     </section>
 
+    <section class="fonctionnalites chapter" id="fonctionnalites">
+        <div class="chapter-intro reveal">
+            <p class="eyebrow">06 / FONCTIONNALITÉS ATTENDUES</p>
+            <h2>Autour de<br /><span>chaque trajet.</span></h2>
+        </div><br><br><br><br>
+            <div class="demo-video-wrap">
+                <div class="demo-video-chrome" aria-hidden="true"><i></i><span>VORA · PRODUCT WALKTHROUGH</span><b>01:42</b></div>
+                <video id="my-video" class="demo-video" width="1100" height="660" controls loop preload="metadata" poster="images/vora-map-poster.png">
+                    <script> const video = document.getElementById("my-video");
+                    video.playbackRate = 2.0; // Sets video to double speed</script>
+                    <source src="Video/Enregistrement de l’écran 2026-08-28 à 09.09.47.mov">Votre navigateur ne prend pas en charge la lecture de vidéos.</video>
+                <div class="demo-video-overlay"><span>VORA / ITINÉRAIRE</span><b>LIVE PROTOTYPE</b></div>
+                <div class="demo-video-caption"><span>Une expérience pensée pour bouger.</span><i></i></div>
+            </div>
+
+        <div class="feat-grid">
+            <div class="feat-col feat-col-left">
+                <div class="feat-chip reveal"><b>◉</b><span>Assistance vocale</span></div>
+                <div class="feat-chip reveal"><b>♿</b><span>Accompagnement des personnes âgées et des personnes à mobilité réduite</span></div>
+                <div class="feat-chip reveal"><b>⌁</b><span>Géolocalisation intelligente et repositionnement sur voie</span></div>
+                <div class="feat-chip reveal"><b>✓</b><span>Vérification sécurisée par code unique</span></div>
+            </div>
+            <div class="feat-col feat-col-right">
+                <div class="feat-chip reveal"><span>Itinéraires personnalisés et navigation hors ligne</span><b>⌖</b></div>
+                <div class="feat-chip reveal"><span>Tarification dynamique et estimation du prix</span><b>FCFA</b></div>
+                <div class="feat-chip reveal"><span>Planification des trajets et destination préférée</span><b>◷</b></div>
+                <div class="feat-chip reveal"><span>Espace de discussion entre chauffeurs</span><b>◌</b></div>
+            </div>
+        </div>
+        <div class="feat-chip feat-chip-wide reveal"><b>+</b><span>Affichage de la destination avant acceptation de la course</span></div>
+    </section>
+
     <section class="feature-story chapter" id="features">
         <div class="feature-story-head reveal">
-            <p class="eyebrow">04 / UNE SEULE APPLICATION</p>
+            <p class="eyebrow">07 / UNE SEULE APPLICATION</p>
             <h2>Tout devient<br /><span>simple.</span></h2>
             <p class="feature-lead">Réserver. Suivre. Arriver.</p>
         </div>
@@ -183,59 +317,93 @@
         </div>
     </section>
 
+    <section class="modules chapter" id="modules">
+        <div class="chapter-intro reveal">
+            <p class="eyebrow">08 / MODULES</p>
+            <h2>Cinq briques<br /><span>essentielles.</span></h2>
+        </div>
+        <div class="tech-capabilities modules-grid" aria-label="Modules de l'application">
+            <article class="capability-card module-card" role="button" tabindex="0" aria-label="Module 1 sur 5 : Authentification. Cliquer pour découvrir le suivant."><small>SÉCURITÉ · 01 / 05</small><h3>Authentification</h3><span>Connexion vérifiée.</span><i class="module-tap">Cliquer pour continuer <b>→</b></i></article>
+            <article class="capability-card module-card" role="button" tabindex="-1" hidden aria-label="Module 2 sur 5 : Réservation. Cliquer pour découvrir le suivant."><small>COMMANDE · 02 / 05</small><h3>Réservation</h3><span>Réserver en un geste.</span><i class="module-tap">Cliquer pour continuer <b>→</b></i></article>
+            <article class="capability-card module-card" role="button" tabindex="-1" hidden aria-label="Module 3 sur 5 : Smart Dispatchment. Cliquer pour découvrir le suivant."><small>INTELLIGENCE · 03 / 05</small><h3>Smart<br />Dispatchment</h3><span>Le bon chauffeur, assigné.</span><i class="module-tap">Cliquer pour continuer <b>→</b></i></article>
+            <article class="capability-card module-card" role="button" tabindex="-1" hidden aria-label="Module 4 sur 5 : Tarification. Cliquer pour découvrir le suivant."><small>PRIX · 04 / 05</small><h3>Tarification</h3><span>Un tarif clair, à l'avance.</span><i class="module-tap">Cliquer pour continuer <b>→</b></i></article>
+            <article class="capability-card module-card" role="button" tabindex="-1" hidden aria-label="Module 5 sur 5 : Géolocalisation et cartographie. Cliquer pour revenir au premier."><small>CARTO · 05 / 05</small><h3>Géolocalisation<br />&amp; cartographie</h3><span>Suivre chaque trajet.</span><i class="module-tap">Recommencer <b>↻</b></i></article>
+        </div>
+    </section>
+
     <section class="tech chapter" id="tech">
         <div class="chapter-intro reveal">
-            <p class="eyebrow">04 / TECHNOLOGIES</p>
-        <h2>Une base<br /><span>solide.</span></h2>
-    </div>
-    <div class="tech-cloud reveal">
-        <div class="tech-orbit orbit-one"></div>
-        <div class="tech-orbit orbit-two"></div>
-        <div class="tech-logo logo-flutter"><i class="devicon-flutter-plain colored"></i><small>Flutter</small></div>
-        <div class="tech-logo logo-swift"><i class="devicon-swift-plain colored"></i><small>Swift</small></div>
-        <div class="tech-logo logo-kotlin"><i class="devicon-kotlin-plain colored"></i><small>Kotlin</small></div>
-        <div class="tech-logo logo-react"><i class="devicon-react-original colored"></i><small>React</small></div>
-        <div class="tech-logo logo-tailwindcss"><i class="devicon-tailwindcss-plain colored"></i><small>Tailwind CSS</small></div>
-        <div class="tech-logo logo-nestjs"><i class="devicon-nestjs-plain colored"></i><small>NestJS</small></div>
-        <div class="tech-logo logo-typescript"><i class="devicon-typescript-plain colored"></i><small>TypeScript</small></div>
-        <div class="tech-logo logo-node"><i class="devicon-nodejs-plain colored"></i><small>Node.js</small></div>
-        <div class="tech-logo logo-osm"><i class="devicon-openstreetmap-plain colored"></i><small>OpenStreetMap</small></div>
-        <div class="tech-logo logo-db"><i class="devicon-postgresql-plain colored"></i><small>PostgreSQL</small></div>
-    </div>
-    <div class="tech-list">
-        <span>Mobile <b>Flutter · Swift · Kotlin</b></span>
-        <span>Front-end <b>React · TypeScript · Tailwind CSS</b></span>
-        <span>Back-end <b>NestJS · Node.js · Axios</b></span>
-        <span>Cloud <b>Firebase Auth · FCM</b></span>
-        <span>Cartographie <b>OpenStreetMap · OSRM</b></span>
-        <span>Tarification <b>Distance · durée · FCFA</b></span></div>
-    <div class="tech-logos-strip" aria-label="Outils de collaboration et services">
-        <div class="service-logo service-zoom"><b>z</b><small>Zoom</small></div>
-        <div class="service-logo service-discord"><i class="devicon-discord-plain colored"></i><small>Discord</small></div>
-        <div class="service-logo service-meet"><b>G</b><small>Google Meet</small></div>
-        <div class="service-logo service-github"><i class="devicon-github-original colored"></i><small>GitHub</small></div>
-        <div class="service-logo service-axios"><b>AX</b><small>Axios</small></div>
-        <div class="service-logo service-firebase"><i class="devicon-firebase-plain colored"></i><small>Firebase</small></div>
-    </div>
-    <div class="tech-capabilities">
-        <article class="capability-card reveal"><small>COLLABORATION</small><h3>Zoom · Discord<br />Google Meet · GitHub</h3><span>Construire ensemble.</span></article>
-        <article class="capability-card reveal"><small>API &amp; RÉSEAU</small><h3>Axios<br />Firebase</h3><span>Connecter chaque geste.</span></article>
-        <article class="capability-card reveal"><small>AUTHENTIFICATION</small><h3>Firebase Auth<br />Cloud Messaging</h3><span>Accès sûr. Alertes utiles.</span></article>
-        <article class="capability-card reveal"><small>GÉO &amp; ROUTES</small><h3>OSM · OSRM<br />Géolocalisation</h3><span>Calculer le meilleur chemin.</span></article>
-        <article class="capability-card reveal"><small>TARIFICATION</small><h3>Distance + durée<br />Prix transparent</h3><span>Le bon prix, au bon moment.</span></article>
-    </div>
+            <p class="eyebrow">09 / TECHNOLOGIES</p>
+            <h2>Une base<br /><span>solide.</span></h2>
+        </div>
+        <div class="tech-cloud reveal">
+            <div class="tech-orbit orbit-one"></div>
+            <div class="tech-orbit orbit-two"></div>
+            <div class="tech-orbit orbit-three"></div>
+            <div class="tech-core"><span>STACK</span><b>VORA</b></div>
+            
+            <!-- Mobile & Frontend -->
+            <div class="tech-logo logo-flutter"><i class="devicon-flutter-plain colored"></i><small>Flutter</small></div>
+            <div class="tech-logo logo-react"><i class="devicon-react-original colored"></i><small>React</small></div>
+            <div class="tech-logo logo-swift"><i class="devicon-swift-plain colored"></i><small>Swift</small></div>
+            <div class="tech-logo logo-kotlin"><i class="devicon-kotlin-plain colored"></i><small>Kotlin</small></div>
+            <div class="tech-logo logo-tailwindcss"><i class="devicon-tailwindcss-plain colored"></i><small>Tailwind</small></div>
+            <div class="tech-logo logo-typescript"><i class="devicon-typescript-plain colored"></i><small>TypeScript</small></div>
+
+            <!-- Backend & Data -->
+            <div class="tech-logo logo-nestjs"><i class="devicon-nestjs-plain colored"></i><small>NestJS</small></div>
+            <div class="tech-logo logo-node"><i class="devicon-nodejs-plain colored"></i><small>Node.js</small></div>
+            <div class="tech-logo logo-db"><i class="devicon-postgresql-plain colored"></i><small>PostgreSQL</small></div>
+            <div class="tech-logo logo-osm"><i class="devicon-openstreetmap-plain colored"></i><small>OSM</small></div>
+            <div class="tech-logo logo-firebase"><i class="devicon-firebase-plain colored"></i><small>Firebase</small></div>
+            <div class="tech-logo logo-axios"><b class="badge-icon" style="background:#5a39c8;">AX</b><small>Axios</small></div>
+
+            <!-- Collaboration -->
+            <div class="tech-logo logo-github"><i class="devicon-github-original colored"></i><small>GitHub</small></div>
+            <div class="tech-logo logo-discord"><i class="devicon-discord-plain colored"></i><small>Discord</small></div>
+            <div class="tech-logo logo-zoom"><b class="badge-icon" style="background:#2d8cff;">z</b><small>Zoom</small></div>
+            <div class="tech-logo logo-meet"><b class="badge-icon" style="background:linear-gradient(135deg,#28a76d,#4f8df7);font-size:.78rem;">G</b><small>Meet</small></div>
+
+            <!-- Design -->
+            <div class="tech-logo logo-figma"><i class="devicon-figma-plain colored"></i><small>Figma</small></div>
+            <div class="tech-logo logo-illustrator"><i class="devicon-illustrator-plain colored"></i><small>Illustrator</small></div>
+            <div class="tech-logo logo-photoshop"><i class="devicon-photoshop-plain colored"></i><small>Photoshop</small></div>
+        </div>
+        <div class="tech-list">
+            <span>Mobile <b>Flutter · Swift · Kotlin</b></span>
+            <span>Front-end <b>React · TypeScript · Tailwind CSS</b></span>
+            <span>Back-end <b>NestJS · Node.js · Axios</b></span>
+            <span>Cloud &amp; Auth <b>Firebase Auth · FCM</b></span>
+            <span>Cartographie <b>OpenStreetMap · OSRM</b></span>
+            <span>Design &amp; UI <b>Figma · Illustrator · Photoshop</b></span>
+            <span>Collaboration <b>GitHub · Discord · Meet · Zoom</b></span>
+            <span>Tarification <b>Algorithme dynamique · FCFA</b></span>
+        </div>
+    </section>
+
+    <section class="livrables chapter" id="livrables">
+        <div class="chapter-intro reveal">
+            <p class="eyebrow">10 / LIVRABLES ATTENDUS</p>
+            <h2>Ce qui sera<br /><span>remis au jury.</span></h2>
+        </div>
+        <div class="livrables-grid">
+            <article class="capability-card reveal"><small>LIVRABLE 01</small><h3>Prototype</h3><span>L'application, testable.</span></article>
+            <article class="capability-card reveal"><small>LIVRABLE 02</small><h3>Présentation<br />pitch</h3><span>Raconter la solution.</span></article>
+            <article class="capability-card reveal"><small>LIVRABLE 03</small><h3>Dépôt<br />GitHub</h3><span>Le code, ouvert.</span></article>
+            <article class="capability-card reveal"><small>LIVRABLE 04</small><h3>Documentation</h3><span>Comprendre, reproduire.</span></article>
+        </div>
     </section>
 
     <section class="team chapter" id="team">
         <div class="chapter-intro reveal">
-            <p class="eyebrow">05 / L'ÉQUIPE</p>
+            <p class="eyebrow">11 / L'ÉQUIPE</p>
             <h2>Des talents<br /><span>en mouvement.</span></h2>
         </div>
         <div class="team-strip team-strip-five">
             <article class="role-card reveal">
                 <span>⌘</span>
                 <small>01</small>
-                <img class="role-image" src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=82" alt="Équipe marketing en réunion" loading="lazy" />
+                <img class="role-image" src="https://images.pexels.com/photos/3184286/pexels-photo-3184286.jpeg" alt="Équipe marketing en réunion" loading="lazy" />
                 <h3>Marketteurs</h3>
                 <p>La vision<br />qui rayonne.</p>
             </article>
@@ -263,10 +431,21 @@
             <article class="role-card reveal">
                 <span>◇</span>
                 <small>05</small>
-                <img class="role-image" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=82" alt="Infrastructure serveur pour le développement back-end" loading="lazy" />
+                <img class="role-image" src="https://images.pexels.com/photos/29445973/pexels-photo-29445973.jpeg" alt="Infrastructure serveur pour le développement back-end" loading="lazy" />
                 <h3>Développeurs<br />Back-end</h3>
                 <p>Le moteur<br />qui relie.</p>
             </article>
+        </div>
+    </section>
+
+    <section class="prix scene" id="prix">
+        <div class="prix-glow" aria-hidden="true"></div>
+        <canvas class="prize-confetti" aria-hidden="true"></canvas>
+        <div class="prix-inner reveal">
+            <p class="eyebrow light">12 / PRIX &amp; RÉCOMPENSE</p>
+            <p class="prix-amount">500 000<span>FCFA</span></p>
+    
+            <p class="prix-note">Remise à l'équipe gagnante du hackathon.</p>
         </div>
     </section>
 
@@ -274,8 +453,8 @@
         <div class="closing-bg" aria-hidden="true"></div>
         <div class="closing-overlay"></div>
         <div class="closing-copy">
-            <p class="eyebrow light">06 / DEMAIN</p>
-            <h2>Le futur de la<br /><em>mobilité commence<br />aujourd'hui.</em></h2>
+            <p class="eyebrow light">13 / MERCI</p>
+            <p class="handwritten handwritten-light write-reveal">Ensemble, innovons pour construire les solutions de demain</p>
             <div class="final-mark">VORA<span>°</span></div></div>
     </section>
   </main>
